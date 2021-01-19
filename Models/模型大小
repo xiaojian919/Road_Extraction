@@ -1,0 +1,36 @@
+u_net 输入3 256 256
+Input size (MB): 0.75
+Forward/backward pass size (MB): 1326.00
+Params size (MB): 122.42
+Estimated Total Size (MB): 1449.17
+
+u2_net 输入3 256 256
+Input size (MB): 0.75
+Forward/backward pass size (MB): 1283.91
+Params size (MB): 167.88
+Estimated Total Size (MB): 1452.54
+
+u2_netp 输入3 256 256 (可以跑512)
+Input size (MB): 0.75
+Forward/backward pass size (MB): 929.85
+Params size (MB): 4.32
+Estimated Total Size (MB): 934.92
+
+
+DinkNet50 输入3 256 256 (可以跑512)
+Input size (MB): 0.75
+Forward/backward pass size (MB): 588.25
+Params size (MB): 830.25
+Estimated Total Size (MB): 1419.25
+
+DinkNet101 输入3 256 256 (可以跑512)
+Input size (MB): 0.75
+Forward/backward pass size (MB): 775.25
+Params size (MB): 902.70
+Estimated Total Size (MB): 1678.70
+
+UNet_2Plus 输入3 256 256
+Input size (MB): 0.75
+Forward/backward pass size (MB): 1823.00
+Params size (MB): 179.96
+Estimated Total Size (MB): 2003.71

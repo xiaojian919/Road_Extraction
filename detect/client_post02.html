@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+
+    <!-- 客户端表单请求地址,请求方式,请求以文件的形式接收，表示能够在表单里传入文件-->
+    <!--    客户端给服务端传送图片-->
+    <form action="http://127.0.0.1:5000/" method="post" enctype="multipart/form-data">
+        <!-- 添加传入文件的按钮-->
+        <input type="file" name="filename">
+        <!-- 添加输入框-->
+        <input name="name" value="">
+        <!-- 添加提交按钮键-->
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

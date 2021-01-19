@@ -1,0 +1,6 @@
+1 clean 一开始数据清洗那个
+2 data_aug 数据增样代码 调用了HSV
+3 mytest1 删除全黑的图
+4 mytest2 画图的demo
+5 plot    画我们ppt里面的图
+6 test0    这个是验证混淆矩阵的
